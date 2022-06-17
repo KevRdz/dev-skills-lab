@@ -15,7 +15,7 @@ router.get('/new', skillsCtrl.new)
 router.post('/', skillsCtrl.create)
 
 // GET -- localhost:3000/skills/:id
-router.post('/:id', skillsCtrl.show)
+router.get('/:id', skillsCtrl.show)
 
 export {
   router
